@@ -43,3 +43,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem "better_errors"
+gem "haml", "~> 4.0.3"
