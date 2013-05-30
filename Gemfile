@@ -6,8 +6,13 @@ gem 'rails', '4.0.0.rc1'
 # Use postgresql as the database for Active Record
 gem 'pg', '0.15.1'
 
-# Use SCSS for stylesheets
+# Use Haml for markup
+gem "haml", "~> 4.0.3"
+
+# Use SASS and Bootsreap-SASS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc1'
+
+gem 'bootstrap-sass', '~> 2.3.1.2'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -45,4 +50,3 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem "better_errors"
-gem "haml", "~> 4.0.3"

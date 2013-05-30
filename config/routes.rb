@@ -5,6 +5,8 @@ NerdCounter::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'pages#index'
 
+  root :to => 'pages#index', as: :home_page
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
