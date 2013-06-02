@@ -1,11 +1,11 @@
 %h1 Listing users
-%table
+%table.table.table-striped
   %tr
-    %th Name
-    %th Email
-    %th
-    %th
-    %th
+    %td Name
+    %td Email
+    %td
+    %td
+    %td
   - @users.each do |user|
     %tr
       %td= user.name
