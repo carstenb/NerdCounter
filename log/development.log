@@ -8121,3 +8121,48 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 17:15:17 +0200
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 17:15:17 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-02 16:06:42 +0200
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 144ms (Views: 142.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-02 16:06:43 +0200
+
+
+Started GET "/users" for 127.0.0.1 at 2013-06-02 16:06:45 +0200
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 32ms (Views: 26.3ms | ActiveRecord: 2.7ms)
+  [1m[36m (0.5ms)[0m  [1mDROP DATABASE IF EXISTS "nerdcounter_test"[0m
+  [1m[35m (5039.8ms)[0m  CREATE DATABASE "nerdcounter_test" ENCODING = 'utf8'
+PG::Error: ERROR:  source database "template1" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+: CREATE DATABASE "nerdcounter_test" ENCODING = 'utf8'
