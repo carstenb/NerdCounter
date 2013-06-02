@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.0.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc1'
@@ -50,3 +51,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem "better_errors"
+gem 'rspec-rails'
+gem "factory_girl_rails"
+gem "database_cleaner"
+gem "email_spec"
